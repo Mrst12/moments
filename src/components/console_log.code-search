@@ -1,0 +1,103 @@
+# Query: console.log
+# ContextLines: 1
+
+21 results - 15 files
+
+src/index.js:
+  21  // If you want to start measuring performance in your app, pass a function
+  22: // to log results (for example: reportWebVitals(console.log))
+  23  // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
+src/components/NavBar.js:
+  28      } catch (err) {
+  29:       // console.log(err);
+  30      }
+
+src/contexts/CurrentUserContext.js:
+  21      } catch (err) {
+  22:      // console.log(err);
+  23      }
+
+src/contexts/ProfileDataContext.js:
+  41      } catch (err) {
+  42:      // console.log(err);
+  43      }
+
+  64      } catch (err) {
+  65:      // console.log(err);
+  66      }
+
+  79        } catch (err) {
+  80:        // console.log(err);
+  81        }
+
+src/pages/comments/CommentCreateForm.js:
+  39      } catch (err) {
+  40:      // console.log(err);
+  41      }
+
+src/pages/comments/CommentEditForm.js:
+  36      } catch (err) {
+  37:      // console.log(err);
+  38      }
+
+src/pages/posts/Post.js:
+  39      } catch (err) {
+  40:      // console.log(err);
+  41      }
+
+  55      } catch (err) {
+  56:      // console.log(err);
+  57      }
+
+  71      } catch (err) {
+  72:       console.log(err);
+  73      }
+
+src/pages/posts/PostCreateForm.js:
+  65      } catch (err) {
+  66:      // console.log(err);
+  67        if (err.response?.status !== 401) {
+
+src/pages/posts/PostEditForm.js:
+  39        } catch (err) {
+  40:       //  console.log(err);
+  41        }
+
+  78      } catch (err) {
+  79:       //console.log(err);
+  80        if (err.response?.status !== 401) {
+
+src/pages/posts/PostPage.js:
+  37        } catch (err) {
+  38:        // console.log(err);
+  39        }
+
+src/pages/posts/PostsPage.js:
+  34        } catch (err) {
+  35:        // console.log(err);
+  36        }
+
+src/pages/profiles/ProfileEditForm.js:
+  44          } catch (err) {
+  45:          // console.log(err);
+  46            history.push("/");
+
+  80      } catch (err) {
+  81:      // console.log(err);
+  82        setErrors(err.response?.data);
+
+src/pages/profiles/ProfilePage.js:
+  55        } catch (err) {
+  56:        // console.log(err);
+  57        }
+
+src/pages/profiles/UsernameForm.js:
+  49      } catch (err) {
+  50:      // console.log(err);
+  51        setErrors(err.response?.data);
+
+src/pages/profiles/UserPasswordForm.js:
+  49      } catch (err) {
+  50:       //console.log(err);
+  51        setErrors(err.response?.data);
